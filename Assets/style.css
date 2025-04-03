@@ -42,8 +42,8 @@ div {
   cursor: pointer;
 }
 .card:hover {
-    background-color: #2a9d8f;
-    border: 2.5px solid #264653;
+    background-color: #e76f51;
+    border: 2.5px solid #f4a261;
     transform: scale(1.15);
     transition: 1s;
     box-shadow: 50px #264653;
@@ -70,7 +70,6 @@ div {
 .p {
   padding-left: 5px;
   text-align: left;
-  font-family: mont;
 }
 
 footer {
