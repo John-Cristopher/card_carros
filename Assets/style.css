@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {  
+  color: #e8e9f3;
+  background-image: url(rua.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+header {
+  background-color: #e76f51;
+  color: #fefae0;
+  text-align: center;
+  align-content: center;
+  height: fill;
+}
+
+div {
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+}
+
+.card {
+  vertical-align:middle;
+  flex: auto;
+  background-color: #f4a261;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+  height: 450px;
+  width: 250px;
+  color: #fefae0;
+  cursor: pointer;
+}
+.card:hover {
+    background-color: #2a9d8f;
+    border: 2.5px solid #264653;
+    transform: scale(1.15);
+    transition: 1s;
+    box-shadow: 50px #264653;
+}
+
+.img {
+  background-attachment: fixed;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid #e8e9f3;
+}
+.audio {
+  margin: 15px;
+  padding: 15px;
+}
+.h2 {
+  text-align: center;
+}
+
+.p {
+  padding-left: 5px;
+  text-align: left;
+  font-family: mont;
+}
+
+footer {
+  background-color: #e76f51;
+  color: #fefae0;
+  text-align: center;
+  align-content: center;
+}
+.rick{
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #e8e9f3;
+}
