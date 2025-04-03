@@ -20,6 +20,7 @@ header {
   text-align: center;
   align-content: center;
   height: fill;
+  padding: 5px;
 }
 
 div {
@@ -44,7 +45,7 @@ div {
 .card:hover {
     background-color: #e76f51;
     border: 2.5px solid #f4a261;
-    transform: scale(1.15);
+    transform: scale(1.07);
     transition: 1s;
     box-shadow: 50px #264653;
 }
@@ -77,6 +78,7 @@ footer {
   color: #fefae0;
   text-align: center;
   align-content: center;
+  padding: 5px;
 }
 .rick{
   background-attachment: fixed;
